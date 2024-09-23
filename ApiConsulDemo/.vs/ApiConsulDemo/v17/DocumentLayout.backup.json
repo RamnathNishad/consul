@@ -1,0 +1,73 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\DockerDotnet\\ApiConsulDemo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{78732122-D00D-4004-8E73-CDBBEAC7DA35}|ApiConsulDemo\\ApiConsulDemo.csproj|c:\\dockerdotnet\\apiconsuldemo\\apiconsuldemo\\consulserviceextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78732122-D00D-4004-8E73-CDBBEAC7DA35}|ApiConsulDemo\\ApiConsulDemo.csproj|solutionrelative:apiconsuldemo\\consulserviceextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE67525B-FA35-419F-AC35-898062EAD91D}|ApiGateWay\\ApiGateWay.csproj|c:\\dockerdotnet\\apiconsuldemo\\apigateway\\ocelot.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{FE67525B-FA35-419F-AC35-898062EAD91D}|ApiGateWay\\ApiGateWay.csproj|solutionrelative:apigateway\\ocelot.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78732122-D00D-4004-8E73-CDBBEAC7DA35}|ApiConsulDemo\\ApiConsulDemo.csproj|c:\\dockerdotnet\\apiconsuldemo\\apiconsuldemo\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{78732122-D00D-4004-8E73-CDBBEAC7DA35}|ApiConsulDemo\\ApiConsulDemo.csproj|solutionrelative:apiconsuldemo\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ocelot.json",
+              "DocumentMoniker": "C:\\DockerDotnet\\ApiConsulDemo\\ApiGateWay\\ocelot.json",
+              "RelativeDocumentMoniker": "ApiGateWay\\ocelot.json",
+              "ToolTip": "C:\\DockerDotnet\\ApiConsulDemo\\ApiGateWay\\ocelot.json",
+              "RelativeToolTip": "ApiGateWay\\ocelot.json",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-20T22:05:52.582Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ConsulServiceExtension.cs",
+              "DocumentMoniker": "C:\\DockerDotnet\\ApiConsulDemo\\ApiConsulDemo\\ConsulServiceExtension.cs",
+              "RelativeDocumentMoniker": "ApiConsulDemo\\ConsulServiceExtension.cs",
+              "ToolTip": "C:\\DockerDotnet\\ApiConsulDemo\\ApiConsulDemo\\ConsulServiceExtension.cs",
+              "RelativeToolTip": "ApiConsulDemo\\ConsulServiceExtension.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAAD8AAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T21:21:49.051Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\DockerDotnet\\ApiConsulDemo\\ApiConsulDemo\\appsettings.json",
+              "RelativeDocumentMoniker": "ApiConsulDemo\\appsettings.json",
+              "ToolTip": "C:\\DockerDotnet\\ApiConsulDemo\\ApiConsulDemo\\appsettings.json",
+              "RelativeToolTip": "ApiConsulDemo\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-20T21:10:39.165Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

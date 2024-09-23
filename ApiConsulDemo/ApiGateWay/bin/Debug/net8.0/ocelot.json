@@ -1,0 +1,37 @@
+{
+  "Routes": [
+    {
+      "UseServiceDiscovery": true,
+      "DownstreamPathTemplate": "/WeatherForecast",
+      //"DownstreamPathTemplate": "/{everything}",
+      "DownstreamScheme": "http",
+      "RouteIsCaseSensitive": false,
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 6004
+        }
+      ],
+      "UpstreamPathTemplate": "/api/weather",
+      "UpstreamHttpMethod": [ "Get", "Put", "Post", "Delete" ],
+      "ServiceName": "SampleAPI",
+      "LoadBalancerOptions": {
+        "Type": "LeastConnection"
+      }
+      //"ReRoutesCaseSensitive": false
+    }
+  ],
+
+  "GlobalConfiguration": {
+    "RequestIdKey": "OcRequestId",
+    "BaseUrl": "http://localhost:5006",
+    "ServiceDiscoveryProvider": {
+      "Scheme": "http",
+      "Host": "localhost",
+      "Port": 8500,
+      "Type": "Consul",
+      "PollingInterval": 1000,
+      "ConfigurationKey": "Ocelot_A"
+    }
+  }
+}
